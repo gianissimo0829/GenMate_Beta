@@ -68,7 +68,7 @@ public class ResinFragment extends Fragment implements View.OnClickListener{
         int minuteCounter = 0;
 
         Calendar currentTimeNow = Calendar.getInstance();
-        SimpleDateFormat sdf = new SimpleDateFormat("EEEE, hh:mm a", Locale.getDefault());
+        SimpleDateFormat sdf = new SimpleDateFormat("EEEE, M/dd/yy, HH:mm a", Locale.getDefault());
 
         for (int i = currResin; i <=160; i++){
             if (i % 10 == 0 && i != 0 && i != currResin){
